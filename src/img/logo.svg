@@ -1,0 +1,23 @@
+
+<svg width="382px" height="75px" viewBox="0 0 382 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <text id="text-1" font-family="Montserrat-SemiBold, Montserrat" font-size="24" font-weight="500" line-spacing="70" letter-spacing="3.84000015" fill="#FFFFFF">
+            <tspan x="552.815999" y="84">ONLINE</tspan>
+            <tspan x="669.816" y="84" font-family="Montserrat-Regular, Montserrat" font-weight="normal"> DEPARTMENT</tspan>
+        </text>
+        <filter x="-13.4%" y="-64.3%" width="126.9%" height="228.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_D_Homepage" transform="translate(-525.000000, -38.000000)">
+            <g id="ONLINE-DEPARTMENT" fill-opacity="1" fill="#FFFFFF">
+                <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+            <path d="M557,94 L880,94" id="Line-2" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
