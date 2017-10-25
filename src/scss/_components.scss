@@ -6,12 +6,6 @@
     background-size: cover;
     position: relative;
 }
-// Load 2x image for retina screens
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
-    .landing {
-        background-image: url(img/page-headline@2x.png); 
-    }
-}
 
 .branding {
     width: 336px;
@@ -37,9 +31,10 @@
 }
 
 .menu {
-    float: right;
+    position: absolute;
+    top: 60px;
+    right: 60px;
     line-height: 50px;
-    padding-top: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +45,7 @@
     height: 50px;
     width: 50px;
     margin-left: 20px;
+    transition: 0.3s all;
 
     &:hover {
         cursor: pointer;
@@ -81,4 +77,44 @@
     width: 73px;
     height: 73px;
     margin: auto;
+}
+
+.grid-item-nieuws {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item__category-container {
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item__image {
+    max-width: 100%;
+    height: 270px;
+    height: auto;
+    overflow: hidden;
+}
+
+.grid-item-nieuws__button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.grid-item-nieuws {
+    background-image: url(img/item/item-image-nieuws.png);
+}
+
+// Load 2x image for retina screens
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
+    .landing {
+        background-image: url(img/page-headline@2x.png); 
+    }
+    .grid-item-nieuws {
+        background-image: url(img/item/item-image-nieuws@2x.png);
+    }
 }

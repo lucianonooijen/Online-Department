@@ -1,42 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Online Department</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
 </head>
+
 <body>
-<div class="landing">
-    <div class="branding hide-mobile"><img src="img/logo.svg" alt="Online Department"></div>
-    <div class="branding--mobile hide-tablet hide-desktop"><img src="img/logo-mobile.svg" alt="Online Department"></div>
-    <div class="menu__button--mobile hide-tablet hide-desktop"><img src="img/menu-closed.svg"></div>
-    <div class="container">
-        <div class="menu">
-            <div class="vacatures__text hide-tablet hide-mobile">Vacatures</div>
-            <div class="vacatures__aantal hide-tablet hide-mobile">2</div>
-            <div class="menu__button hide-mobile"><img src="img/menu-closed.svg" class=""></div>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__list-item">
+                <a href="#" class="navigation__item">Home</a>
+            </li>
+            <li class="navigation__list-item">
+                <a href="#" class="navigation__item">UX Tools</a>
+            </li>
+            <li class="navigation__list-item">
+                <a href="#" class="navigation__item">UX Workshops</a>
+            </li>
+            <li class="navigation__list-item">
+                <a href="#" class="navigation__item">UX Artikelen</a>
+            </li>
+            <li class="navigation__list-item">
+                <a href="#" class="navigation__item">Nieuws</a>
+            </li>
+            <li class="navigation__list-item">
+                <a href="#" class="navigation__item">Auteurs</a>
+            </li>
+            <li class="navigation__list-item">
+                <a href="#" class="navigation__item">Contact</a>
+            </li>
+            <li class="navigation__list-item">
+                <a href="#" class="navigation__item">Vacatures
+                    <div class="vacatures__aantal">2</div>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="content">
+        <div class="landing">
+            <div class="branding hide-mobile">
+                <img src="img/logo.svg" class="animated fadeIn" alt="Online Department">
+            </div>
+            <div class="branding--mobile hide-tablet hide-desktop">
+                <img src="img/logo-mobile.svg" alt="Online Department" class="animated fadeIn">
+            </div>
+            <div class="menu__button--mobile hide-tablet hide-desktop animated fadeIn animated-delay">
+                <img src="img/menu-closed.svg">
+            </div>
+            <!-- <div class="container"> -->
+            <div class="menu animated fadeIn animated-delay">
+                <div class="vacatures__text hide-tablet hide-mobile">Vacatures</div>
+                <div class="vacatures__aantal hide-tablet hide-mobile">2</div>
+                <div class="menu__button hide-mobile">
+                    <img src="img/menu-closed.svg" class="">
+                </div>
+            </div>
+            <div class="page-headline">
+                <h1 class="page-headline__text animated fadeInDown">De onvergetelijk
+                    <br>9+ klantenervaring
+                    <br>zit in de nuance</h1>
+                <div class="page-headline__button animated fadeIn animated-delay">
+                    <a href="#">Lees</a>
+                </div>
+            </div>
+            <div class="scroll-down animated infinite bounce">
+                <img src="img/scrolldown.svg">
+            </div>
         </div>
-        <div class="page-headline">
-            <h1 class="page-headline__text">De onvergetelijk<br>9+ klantenervaring<br>zit in de nuance</h1>
-            <div class="page-headline__button"><a href="#">Lees</a></div>
+        <div class="container">
+            <div class="item-grid">
+                <div class="grid-item animated fadeIn">
+                    <img src="img/item/item-image-1.png" alt="Lorem ipsum" srcset="img/item/item-image-1@2x.png 2x, img/item/item-image-1.png 1x"
+                        class="grid-item__image">
+                    <div class="grid-item__category-container">
+                        <p class="grid-item__category">Category</p>
+                    </div>
+                    <h3 class="grid-item__headline">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h3>
+                    <p class="grid-item__description hide-mobile hide-tablet">Lorem ipsum dolor sit amet consectetuer adipscing elit, sed dos elusmod tempor indiducident ut labore
+                        et dolore magna aliqua.</p>
+                </div>
+                <div class="grid-item animated fadeIn">
+                    <img src="img/item/item-image-2.png" alt="Lorem ipsum" srcset="img/item/item-image-2@2x.png 2x, img/item/item-image-2.png 1x"
+                        class="grid-item__image">
+                    <div class="grid-item__category-container">
+                        <p class="grid-item__category">Category</p>
+                    </div>
+                    <h3 class="grid-item__headline">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h3>
+                    <p class="grid-item__description hide-mobile hide-tablet">Lorem ipsum dolor sit amet consectetuer adipscing elit, sed dos elusmod tempor indiducident ut labore
+                        et dolore magna aliqua.</p>
+                </div>
+                <div class="grid-item animated fadeIn">
+                    <img src="img/item/item-image-3.png" alt="Lorem ipsum" srcset="img/item/item-image-3@2x.png 2x, img/item/item-image-3.png 1x"
+                        class="grid-item__image">
+                    <div class="grid-item__category-container">
+                        <p class="grid-item__category">Category</p>
+                    </div>
+                    <h3 class="grid-item__headline">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h3>
+                    <p class="grid-item__description hide-mobile hide-tablet">Lorem ipsum dolor sit amet consectetuer adipscing elit, sed dos elusmod tempor indiducident ut labore
+                        et dolore magna aliqua.</p>
+                </div>
+                <div class="grid-item animated fadeIn">
+                    <img src="img/item/item-image-4.png" alt="Lorem ipsum" srcset="img/item/item-image-4@2x.png 2x, img/item/item-image-4.png 1x"
+                        class="grid-item__image">
+                    <div class="grid-item__category-container">
+                        <p class="grid-item__category">Category</p>
+                    </div>
+                    <h3 class="grid-item__headline">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h3>
+                    <p class="grid-item__description hide-mobile hide-tablet">Lorem ipsum dolor sit amet consectetuer adipscing elit, sed dos elusmod tempor indiducident ut labore
+                        et dolore magna aliqua.</p>
+                </div>
+                <div class="grid-item animated fadeIn">
+                    <img src="img/item/item-image-5.png" alt="Lorem ipsum" srcset="img/item/item-image-5@2x.png 2x, img/item/item-image-5.png 1x"
+                        class="grid-item__image">
+                    <div class="grid-item__category-container">
+                        <p class="grid-item__category">Category</p>
+                    </div>
+                    <h3 class="grid-item__headline">Lorem ipsum, dolor sit amet consectetur adipisicing elit</h3>
+                    <p class="grid-item__description hide-mobile hide-tablet">Lorem ipsum dolor sit amet consectetuer adipscing elit, sed dos elusmod tempor indiducident ut labore
+                        et dolore magna aliqua.</p>
+                </div>
+                <div class="grid-item grid-item-nieuws animated fadeIn">
+                    <div class="grid-item-nieuws__container">
+                        <p class="grid-item-nieuws__headline">Speciaal voor jou voorgeselecteerd
+                            <b>onze top items</b> in je mail?</p>
+                        <div class="grid-item-nieuws__button-container">
+                            <a href="#" class="grid-item-nieuws__button">Nieuws ontvangen</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="scroll-down"><img src="img/scrolldown.svg"></div>
     </div>
-</div>
-<div class="container">
-    <div class="item-grid">
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-    </div>
-</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="main.js"></script>
+
 </html>

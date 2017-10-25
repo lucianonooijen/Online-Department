@@ -1,3 +1,15 @@
+@media (max-width: $desktop){
+    .grid-item-nieuws__headline {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .grid-item-nieuws__button {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
 @media (max-width: $tablet){
     .landing {
         height: 800px;
@@ -20,11 +32,26 @@
         line-height: 42px;
         text-shadow: 0 0 30px rgba(0,0,0,0.50);
     }
+
+    .grid-item-nieuws__headline {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .grid-item-nieuws__button {
+        font-size: 12px;
+        padding: 8px;
+    }
 }
 
 @media (max-width: $mobile){
     .landing {
         height: 480px;
+    }
+
+    .menu__button {
+        right: 20px;
+        top: 20px;
     }
 
     .page-headline {
