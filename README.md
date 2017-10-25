@@ -11,5 +11,8 @@ Total: 10 minutes
 * 0:00-0:24 - 24 minutes (Project setup, Gulp)
 * 13:31-13:46 - 15 minutes (Drawing everything out)
 * 13:46-14:12 - 26 minutes (Creating all variables and creating grid)
+* 14:12-14:25 - 13 minutes (Exporting all assets)
+* 14:25-15:19 - 54 minutes (Starting on some css and html stuff)
+
 
 Total: 

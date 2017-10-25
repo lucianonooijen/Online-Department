@@ -70,7 +70,7 @@ gulp.task('js', () => {
 
 gulp.task('images', () => {
     return gulp.src(source.images)
-        .pipe(imagemin(imageSettings))
+        //.pipe(imagemin(imageSettings))
         .pipe(gulp.dest(output.images))
 });
 
@@ -79,7 +79,7 @@ gulp.task('html', () => {
         .pipe(gulp.dest(output.html))
 });
 
-gulp.task('serve', ['sass'], () => {
+gulp.task('serve', ['sass', 'js', 'images', 'html'], () => {
 
         browserSync.init({
             server: "./public"
