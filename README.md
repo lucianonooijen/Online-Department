@@ -9,5 +9,7 @@ Total: 10 minutes
 
 #### 2017-10-25
 * 0:00-0:24 - 24 minutes (Project setup, Gulp)
+* 13:31-13:46 - 15 minutes (Drawing everything out)
+* 13:46-14:12 - 26 minutes (Creating all variables and creating grid)
 
 Total: 

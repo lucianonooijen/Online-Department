@@ -49,7 +49,7 @@ gulp.task('sass', () => {
         .pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer('last 2 versions'))
-        .pipe(cleanCss())
+        //.pipe(cleanCss())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(output.sass))
         .pipe(browserSync.stream());
