@@ -10,7 +10,7 @@
 }
 
 .navigation--opened {
-    right: 0px
+    right: 0px;
 }
 
 .navigation__list {
@@ -20,9 +20,32 @@
 
 .navigation__list-item{
     margin: 40px 0;
-    padding: 0 30px;
+    padding: 0 50px;
+
+    a {
+        width: 100%;
+        display: block;
+    }
 }
 
-.navigation__item {
-    
+.navigation__list-item-vacature {
+    float: right;
+    margin-top: 12px;
+}
+
+.navigation__separator {
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,.2)
+}
+
+.follow-block {
+    margin: 50px;
+}
+
+.follow-us__socials {
+    margin-top: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

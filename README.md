@@ -21,5 +21,5 @@ Total: 10 minutes
 Total: 267 minutes
 
 #### 2017-10-26
-* 0:00-0:44 - 44 minutes (Adding slideout menu)
+* 0:00-1:28 - 88 minutes (Adding slideout menu)
 Total:
