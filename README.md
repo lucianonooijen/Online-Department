@@ -13,6 +13,7 @@ Total: 10 minutes
 * 13:46-14:12 - 26 minutes (Creating all variables and creating grid)
 * 14:12-14:25 - 13 minutes (Exporting all assets)
 * 14:25-15:19 - 54 minutes (Starting on some css and html stuff)
+* 15:19-16:00 - 41 minutes (Finished desktop landing)
 
 
 Total: 

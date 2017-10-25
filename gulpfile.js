@@ -48,7 +48,7 @@ gulp.task('sass', () => {
         .pipe(plumber())
         .pipe(sourcemaps.init())
         .pipe(sass())
-        .pipe(autoprefixer('last 2 versions'))
+        .pipe(autoprefixer({ grid: true }))
         //.pipe(cleanCss())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(output.sass))

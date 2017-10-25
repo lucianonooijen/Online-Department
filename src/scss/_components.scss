@@ -16,17 +16,47 @@
 .branding {
     width: 336px;
     margin: auto;
-    padding-top: 50px;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
 }
 
 .menu {
     float: right;
     line-height: 50px;
     padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .menu__button {
     display: inline-block;
     height: 50px;
     width: 50px;
+    margin-left: 20px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.page-headline {
+    width: 750px;
+    position: absolute;
+    top: 400px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.scroll-down {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    width: 73px;
+    height: 73px;
+    margin: auto;
 }
