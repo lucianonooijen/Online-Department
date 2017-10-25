@@ -18,8 +18,21 @@
     height: 572px;
 }
 
+@media (max-width: $tablet){
+    .item-grid {
+        grid-template-columns: 1fr 1fr;
+        max-width: 90vw;
+        margin: 50px auto 50px auto; 
+    }
+}
+
 @media (max-width: $mobile){
     .item-grid {
-        //something in here    
+        grid-template-columns: 1fr;  
+        width: 280px; 
+        max-width: 90vw;
+    }
+    .grid-item {
+        height: 392px;
     }
 }

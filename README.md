@@ -14,6 +14,7 @@ Total: 10 minutes
 * 14:12-14:25 - 13 minutes (Exporting all assets)
 * 14:25-15:19 - 54 minutes (Starting on some css and html stuff)
 * 15:19-16:00 - 41 minutes (Finished desktop landing)
+* 17:05-17:32 - 27 minutes (Started working on some responsiveness stuff)
 
 
 Total: 

@@ -35,10 +35,14 @@
 }
 
 .page-headline__button {
-    font-family: Montserrat-Regular;
-    font-size: 16px;
-    color: $white;
-    letter-spacing: 2.4px;
+    a {
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        color: $white;
+        letter-spacing: 2.4px;
+        margin-top: 28px;
+        text-decoration: none;
+    }
     
     //outline
     border: 2px solid $white;
@@ -46,7 +50,7 @@
     text-align: center;
     width: 108px;
     line-height: 45px;
-    margin: 28px auto 0 auto;
+    margin: 28px auto;
 }
 
 .item__category {

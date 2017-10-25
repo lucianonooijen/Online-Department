@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="129px" height="44px" viewBox="0 0 129 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>logo-mobile</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="Montserrat-SemiBold, Montserrat" font-size="15" font-weight="500" line-spacing="20" letter-spacing="2.39999986" fill="#FFFFFF">
+            <tspan x="0" y="15">ONLINE</tspan>
+            <tspan x="73.1249991" y="15" font-family="Montserrat-Regular, Montserrat" font-weight="normal" letter-spacing="2.24999976"> </tspan>
+            <tspan x="0" y="35" font-family="Montserrat-Regular, Montserrat" font-weight="normal" letter-spacing="2.24999976">DEPARTMENT</tspan>
+        </text>
+        <filter x="-34.9%" y="-112.5%" width="169.8%" height="325.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo-mobile">
+            <g id="ONLINE-DEPARTMENT" fill-opacity="1" fill="#FFFFFF">
+                <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                <use xlink:href="#text-1"></use>
+            </g>
+            <path d="M2.5,43 L128,43" id="Line-2-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,73 @@
+@media (max-width: $tablet){
+    .landing {
+        height: 800px;
+    }
+
+    .page-headline {
+        width: 90vw;
+        position: absolute;
+        top: 300px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .page-headline__text {
+        font-family: Montserrat-Regular;
+        font-size: 28px;
+        color: #FFFFFF;
+        letter-spacing: 5.2px;
+        line-height: 42px;
+        text-shadow: 0 0 30px rgba(0,0,0,0.50);
+    }
+}
+
+@media (max-width: $mobile){
+    .landing {
+        height: 480px;
+    }
+
+    .page-headline {
+        width: 90vw;
+        position: absolute;
+        top: 184px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .page-headline__text {
+        font-family: Montserrat-Regular;
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 3.2px;
+        line-height: 35px;
+        text-shadow: 0 0 30px rgba(0,0,0,0.50);
+    }
+    
+    .page-headline__button {
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 2.4px;
+        line-height: 22px;
+        
+        //outline
+        border: 2px solid $white;
+        text-transform: uppercase;
+        text-align: center;
+        width: 108px;
+        line-height: 45px;
+        margin: 14px auto 0 auto;
+    }
+
+    .scroll-down {
+        bottom: 32px;
+        width: 53px;
+        height: 53px;
+        img {
+            width: 53px;
+            height: 53px;
+        }
+    }
+}
