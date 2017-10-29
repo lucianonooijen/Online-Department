@@ -27,6 +27,7 @@ Total: 88 minutes
 #### 2017-10-29
 * 13:27-14:41 - 74 minutes (Added animations and made pixel perfect)
 * 16:58-17:10 - 12 minutes (File organisation)
-Total: 86 minutes
+* 22:50-22:53 - 3 minutes (Minified everything and removed source maps)
+Total: 89 minutes
 
-#### Total time spent: 451 minutes
+#### Total time spent: 454 minutes

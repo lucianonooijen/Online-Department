@@ -46,11 +46,11 @@ const imageSettings = [
 gulp.task('sass', () => {
     return gulp.src(source.sass)
         .pipe(plumber())
-        .pipe(sourcemaps.init())
+        //.pipe(sourcemaps.init())
         .pipe(sass())
         .pipe(autoprefixer({ grid: true }))
-        //.pipe(cleanCss())
-        .pipe(sourcemaps.write())
+        .pipe(cleanCss())
+        //.pipe(sourcemaps.write())
         .pipe(gulp.dest(output.sass))
         .pipe(browserSync.stream());
 });
@@ -58,13 +58,13 @@ gulp.task('sass', () => {
 gulp.task('js', () => {
     return gulp.src(source.js)
         .pipe(plumber())
-        .pipe(sourcemaps.init())
+        //.pipe(sourcemaps.init())
         //.pipe(jshint())
         //.pipe(jshint.reporter('default'))
         .pipe(babel({presets: ['es2015']}))
         .pipe(concat('main.js'))
         .pipe(uglify())
-        .pipe(sourcemaps.write())
+        //.pipe(sourcemaps.write())
         .pipe(gulp.dest(output.js))
 });
 
