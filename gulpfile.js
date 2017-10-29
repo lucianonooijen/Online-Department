@@ -82,7 +82,7 @@ gulp.task('html', () => {
 gulp.task('serve', ['sass', 'js', 'images', 'html'], () => {
 
         browserSync.init({
-            server: "./public"
+            server: "./public",
         });
 
         gulp.watch(watch.sass, ['sass']);

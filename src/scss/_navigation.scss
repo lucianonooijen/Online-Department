@@ -4,23 +4,24 @@
     position: fixed;
     //z-index: 100;
     right: 0;
-    min-height: 100vh;
+    height: 100vh;
+    overflow-y: scroll;
     transition: all 0.3s ease;
     right: -300px;
 }
 
 .navigation--opened {
-    right: 0px;
+    right: 0px !important;
 }
 
 .navigation__list {
     list-style: none;
-    padding: 20px 0;
+    padding: 29px 0 25px 0;
 }
 
 .navigation__list-item{
-    margin: 40px 0;
-    padding: 0 50px;
+    margin: 32px 0;
+    padding: 0 41px;
 
     a {
         width: 100%;
@@ -40,7 +41,7 @@
 }
 
 .follow-block {
-    margin: 50px;
+    margin: 51px 45px 40px 40px;
 }
 
 .follow-us__socials {
@@ -48,4 +49,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.mobile-menu-close-button {
+    float: right;
+    margin: 20px;
 }

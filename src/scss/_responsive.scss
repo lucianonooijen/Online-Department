@@ -40,7 +40,7 @@
 
     .grid-item-nieuws__button {
         font-size: 12px;
-        padding: 8px;
+        padding: 12px 15px;
     }
 }
 
@@ -70,6 +70,7 @@
         letter-spacing: 3.2px;
         line-height: 35px;
         text-shadow: 0 0 30px rgba(0,0,0,0.50);
+        margin: -4px 0 0 2px;
     }
     
     .page-headline__button {
@@ -83,9 +84,9 @@
         border: 2px solid $white;
         text-transform: uppercase;
         text-align: center;
-        width: 108px;
-        line-height: 45px;
-        margin: 14px auto 0 auto;
+        width: 102px;
+        line-height: 41px;
+        margin: 12px auto 0 auto;
     }
 
     .scroll-down {
@@ -96,5 +97,49 @@
             width: 53px;
             height: 53px;
         }
+    }
+
+    .navigation__list {
+        padding-top: 70px;
+    }
+
+    .grid-item__category-container {
+        margin: 17px 0 20px 0;
+    }
+
+    .grid-item__headline {
+        letter-spacing: 1.15px;
+    }
+
+    .grid-item-nieuws__headline {
+        line-height: 40px;
+        letter-spacing: 1.2px;
+        margin: 0px 26px 41px 26px;
+    }
+
+    .grid-item-nieuws__button {
+        letter-spacing: 3.4px;
+    }
+}
+
+@media (max-width: $mobile-xs) {
+    .navigation {
+        width: 100vw;
+        right: -100vw;
+    }
+    .menu-opened {
+        transform: translateX(-100vw) !important;
+    }
+
+    .navigation__list {
+        padding-top: 80px;
+    }
+
+    .navigation__list-item {
+        padding: 0 53px;
+    }
+
+    .follow-block {
+        margin: 53px;
     }
 }

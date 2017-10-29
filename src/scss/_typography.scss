@@ -11,7 +11,15 @@
 .navigation__list-item--active {
     background: rgba(255,255,255,.1);
     a {
-        opacity: 1;
+        color: $white;
+    }
+    ::after {
+        content: '';
+        height: 50px;
+        width: 4px;
+        background: $white;
+        position: absolute;
+        right: 0;
     }
 }
 
@@ -48,6 +56,7 @@
     color: #FFFFFF;
     letter-spacing: 2.57px;
     text-align: center;
+    width: 200px;
 }
 
 .vacatures__text {
@@ -58,7 +67,7 @@
     line-height: 50px;
     text-transform: uppercase;
     display: inline-block;
-    margin-right: 2px;
+    margin-right: 22px;
 }
 
 .vacatures__aantal {
@@ -84,6 +93,7 @@
     text-shadow: 0 0 30px rgba(0,0,0,0.50);
     text-transform: uppercase;
     text-align: center;
+    margin: 5px 0 0 3px;
 }
 
 .page-headline__button {
@@ -100,9 +110,9 @@
     border: 2px solid $white;
     text-transform: uppercase;
     text-align: center;
-    width: 108px;
-    line-height: 45px;
-    margin: 28px auto;
+    width: 103px;
+    line-height: 41px;
+    margin: 31px auto;
 }
 
 .grid-item__category {
@@ -115,7 +125,7 @@
     text-align: center;
 
     //outline
-    padding: 6px 7px;
+    padding: 6px 7px 4px 7px;
     border: 1px solid $red;
     border-radius: 2px;
     display: inline-block;
@@ -139,7 +149,7 @@
     letter-spacing: 0;
     line-height: 30px;
     text-align: center;
-    margin: 30px 40px;
+    margin: 25px 40px;
 }
 
 .grid-item-nieuws__headline {
@@ -150,7 +160,7 @@
     line-height: 40px;
     text-transform: uppercase;
     text-align: center;
-    margin: 0 20px 40px 20px;
+    margin: 0 20px 60px 20px;
     b {
         font-weight: 600;
     }
@@ -161,7 +171,7 @@
     font-size: 16px;
     color: #FFFFFF;
     letter-spacing: 2.4px;
-    line-height: 22px;
+    line-height: 16px;
     text-transform: uppercase;
     text-decoration: none;
     padding: 12px;

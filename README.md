@@ -22,4 +22,8 @@ Total: 267 minutes
 
 #### 2017-10-26
 * 0:00-1:28 - 88 minutes (Adding slideout menu)
-Total:
+Total: 88 minutes
+
+#### 2017-10-29
+* 13:27-14:41 - 74 minutes (Added animations and made pixel perfect)
+Total: 

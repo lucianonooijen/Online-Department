@@ -23,6 +23,15 @@ body {
     }
 }
 
+.only-mobile-xs{
+    display: none;
+}
+@media (max-width: $mobile-xs){
+    .only-mobile-xs{
+        display: block !important;
+    }
+}
+
 // Some general stuff
 .ml-auto {
     margin-left: auto;

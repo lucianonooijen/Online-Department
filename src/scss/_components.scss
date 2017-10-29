@@ -11,9 +11,9 @@
     width: 336px;
     margin: auto;
     position: absolute;
-    top: 40px;
+    top: 39px;
     left: 0;
-    right: 0;
+    right: 51px;
 }
 
 .branding--mobile {
@@ -33,11 +33,14 @@
 .menu {
     position: absolute;
     top: 60px;
-    right: 60px;
+    right: 51px;
     line-height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    * {
+        transition: 0.3s all;
+    }
 }
 
 .menu__button {
@@ -86,7 +89,7 @@
 }
 
 .grid-item__category-container {
-    margin: 20px 0 20px 0;
+    margin: 26px 0 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,6 +100,11 @@
     height: 270px;
     height: auto;
     overflow: hidden;
+}
+
+.grid-item-nieuws__container {
+    margin-top: -15px;
+
 }
 
 .grid-item-nieuws__button-container {
