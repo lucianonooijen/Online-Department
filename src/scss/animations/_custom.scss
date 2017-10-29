@@ -1,0 +1,48 @@
+// Custom animations
+@keyframes bounce {
+    0% {
+        transform: none;
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: none;
+    }
+}
+.bounce {
+    animation-name: bounce;
+    animation-duration: 0.7s !important;
+    animation-timing-function: ease-in-out;
+}
+
+.animated-delay {
+    animation-delay: 1s;
+}
+
+//General button hover animation
+a {
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: $white;
+        opacity: 1;
+    }
+}
+
+.page-headline__button {
+    // transition: all 0.3s ease;
+    // &:hover {
+    //     border-color: $red;
+    // }
+
+    a:hover {
+        color: $red;
+    }
+}
+
+.grid-item-nieuws__button {
+    &:hover {
+        color: $red;
+    }
+}

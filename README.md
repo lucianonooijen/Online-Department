@@ -26,4 +26,7 @@ Total: 88 minutes
 
 #### 2017-10-29
 * 13:27-14:41 - 74 minutes (Added animations and made pixel perfect)
-Total: 
+* 16:58-17:10 - 12 minutes (File organisation)
+Total: 86 minutes
+
+#### Total time spent: 451 minutes

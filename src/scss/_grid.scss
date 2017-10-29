@@ -1,44 +1,4 @@
-// General grid (desktop)
-.container {
-    width: 95vw;
-    max-width: 1320px;
-    margin: auto;
-}
-
-.item-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 60px;
-    grid-row-gap: 52px;
-    margin: 80px 0;
-}
-
-.grid-item {
-    background: $white;
-    height: 572px;
-}
-
-@media (max-width: $tablet){
-    .item-grid {
-        grid-template-columns: 1fr 1fr;
-        width: 700px;
-        max-width: 90vw;
-        margin: 50px auto 50px auto; 
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-    }
-    .grid-item {
-        height: 450px;
-    }
-}
-
-@media (max-width: $mobile){
-    .item-grid {
-        grid-template-columns: 1fr;  
-        width: 280px; 
-        max-width: 90vw;
-    }
-    .grid-item {
-        height: 392px;
-    }
-}
+@import 'variables';
+@import 'grid/general';
+@import 'grid/tablet';
+@import 'grid/mobile';

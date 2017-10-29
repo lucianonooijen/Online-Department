@@ -1,0 +1,10 @@
+@media (max-width: $mobile){
+    .item-grid {
+        grid-template-columns: 1fr;  
+        width: 280px; 
+        max-width: 90vw;
+    }
+    .grid-item {
+        height: 392px;
+    }
+}

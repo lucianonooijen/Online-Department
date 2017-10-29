@@ -1,0 +1,21 @@
+@media (max-width: $mobile-xs) {
+    .navigation {
+        width: 100vw;
+        right: -100vw;
+    }
+    .menu-opened {
+        transform: translateX(-100vw) !important;
+    }
+
+    .navigation__list {
+        padding-top: 80px;
+    }
+
+    .navigation__list-item {
+        padding: 0 53px;
+    }
+
+    .follow-block {
+        margin: 53px;
+    }
+}

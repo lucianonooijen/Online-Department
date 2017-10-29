@@ -1,0 +1,13 @@
+@media (max-width: $tablet){
+    .item-grid {
+        grid-template-columns: 1fr 1fr;
+        width: 700px;
+        max-width: 90vw;
+        margin: 50px auto 50px auto; 
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+    .grid-item {
+        height: 450px;
+    }
+}

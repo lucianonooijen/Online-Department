@@ -1,0 +1,77 @@
+@media (max-width: $mobile){
+    .landing {
+        height: 480px;
+    }
+
+    .menu__button {
+        right: 20px;
+        top: 20px;
+    }
+
+    .page-headline {
+        width: 90vw;
+        position: absolute;
+        top: 184px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .page-headline__text {
+        font-family: Montserrat-Regular;
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 3.2px;
+        line-height: 35px;
+        text-shadow: 0 0 30px rgba(0,0,0,0.50);
+        margin: -4px 0 0 2px;
+    }
+    
+    .page-headline__button {
+        font-family: Montserrat-Regular;
+        font-size: 16px;
+        color: #FFFFFF;
+        letter-spacing: 2.4px;
+        line-height: 22px;
+        
+        //outline
+        border: 2px solid $white;
+        text-transform: uppercase;
+        text-align: center;
+        width: 102px;
+        line-height: 41px;
+        margin: 12px auto 0 auto;
+    }
+
+    .scroll-down {
+        bottom: 32px;
+        width: 53px;
+        height: 53px;
+        img {
+            width: 53px;
+            height: 53px;
+        }
+    }
+
+    .navigation__list {
+        padding-top: 70px;
+    }
+
+    .grid-item__category-container {
+        margin: 17px 0 20px 0;
+    }
+
+    .grid-item__headline {
+        letter-spacing: 1.15px;
+    }
+
+    .grid-item-nieuws__headline {
+        line-height: 40px;
+        letter-spacing: 1.2px;
+        margin: 0px 26px 41px 26px;
+    }
+
+    .grid-item-nieuws__button {
+        letter-spacing: 3.4px;
+    }
+}

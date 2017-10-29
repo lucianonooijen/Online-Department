@@ -1,0 +1,125 @@
+// Menu animations
+#content {
+    transition: all 0.3s ease;
+}
+
+.menu-opened {
+    transform: translateX(-300px);
+}
+
+.menu--opened {
+    right: 69px;
+    .vacatures__text {
+        margin-right: 5px;
+    }
+}
+
+.navigation-li--opened {
+    animation-name: fadeInMenu;
+    opacity: 0;
+}
+
+.navigation__list {
+    li {
+        @for $i from 1 through 8 {
+            &:nth-child(#{$i}) {
+                animation: {
+                    //name: fadeInMenu;
+                    duration: 300ms;
+                    delay: (100ms * $i) + 200;
+                    timing-function: ease;
+                    fill-mode: forwards;
+                }
+            }
+        }
+    }
+}
+@keyframes fadeInMenu {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(1.2);
+    }
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.navigation-follow-block--opened {
+    animation-name: fadeInMenuFollowBlock;
+    opacity: 0;
+}
+
+.follow-block {
+    animation: {
+        duration: 700ms;
+        delay: 1200ms;
+        timing-function: ease;
+        fill-mode: forwards;
+    }
+}
+
+@keyframes fadeInMenuFollowBlock {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+// Stuff copied from animate.scss
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+  
+.animated.infinite {
+    animation-iteration-count: infinite;
+}
+
+@keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+} 
+.fadeInDown {
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+}
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+}
+  
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+

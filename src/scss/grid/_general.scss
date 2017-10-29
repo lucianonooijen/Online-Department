@@ -1,0 +1,19 @@
+// General grid (desktop)
+.container {
+    width: 95vw;
+    max-width: 1320px;
+    margin: auto;
+}
+
+.item-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 60px;
+    grid-row-gap: 52px;
+    margin: 80px 0;
+}
+
+.grid-item {
+    background: $white;
+    height: 572px;
+}

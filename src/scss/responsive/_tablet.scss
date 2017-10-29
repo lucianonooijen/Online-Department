@@ -1,0 +1,33 @@
+@media (max-width: $tablet){
+    .landing {
+        height: 800px;
+    }
+
+    .page-headline {
+        width: 90vw;
+        position: absolute;
+        top: 300px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    .page-headline__text {
+        font-family: Montserrat-Regular;
+        font-size: 28px;
+        color: #FFFFFF;
+        letter-spacing: 5.2px;
+        line-height: 42px;
+        text-shadow: 0 0 30px rgba(0,0,0,0.50);
+    }
+
+    .grid-item-nieuws__headline {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .grid-item-nieuws__button {
+        font-size: 12px;
+        padding: 12px 15px;
+    }
+}
